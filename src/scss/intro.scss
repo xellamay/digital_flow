@@ -1,6 +1,7 @@
 .intro {
   box-sizing: border-box;
   text-align: center;
+  margin-top: 46px;
 
   &__title {
     @include font-large;
@@ -15,7 +16,7 @@
   &__description {
     @include font-small;
 
-    margin: 20px 0;
+    margin: 20px 0 50px 0;
 
     font-size: 18px;
   }
