@@ -1,0 +1,22 @@
+.intro {
+  box-sizing: border-box;
+  text-align: center;
+
+  &__title {
+    @include font-large;
+
+    margin: 0 ;
+
+    font-size: 74px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    @include font-small;
+
+    margin: 20px 0;
+
+    font-size: 18px;
+  }
+}

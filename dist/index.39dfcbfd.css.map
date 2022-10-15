@@ -1,0 +1,1 @@
+{"mappings":"ACAA;;;;;ACAA","sources":["src/css/index.scss","src/css/reset.scss","src/css/section__container.scss"],"sourcesContent":["@import \"reset\";\r\n@import \"section__container\";\r\n",null,null],"names":[],"version":3,"file":"index.39dfcbfd.css.map","sourceRoot":"/__parcel_source_root/"}

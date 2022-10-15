@@ -1,0 +1,11 @@
+html, body, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+.section__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=index.39dfcbfd.css.map */

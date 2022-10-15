@@ -1,0 +1,29 @@
+{
+  "name": "digital_flow",
+  "version": "1.0.0",
+  "description": "simple landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html --dist-dir dev",
+    "build": "parcel build src/index.html --dist-dir build --public-url .",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xellamay/digital_flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xellamay/digital_flow/issues"
+  },
+  "homepage": "https://github.com/xellamay/digital_flow#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
