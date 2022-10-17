@@ -1,0 +1,42 @@
+.footer {
+
+  &__list {
+    display: flex;
+    column-gap: 40px;
+    padding: 66px 0;
+    margin: 0;
+    border-bottom: 1px solid $grey;
+  }
+
+  &__item {
+    list-style-type: none;
+    width: 25%;
+  }
+
+  &__title {
+    @include title-white;
+  }
+
+  &__info {
+    @include regular-white;
+    font-weight: 200;
+    margin-top: 20px;
+  }
+
+  &__contact {
+    @include regular-white;
+    font-weight: 200;
+    text-decoration: none;
+  }
+
+  &__aside {
+    display: flex;
+    justify-content: space-between;
+    margin: 46px 0;
+  }
+
+  &__logo {
+    @include title-white;
+    font-weight: 600;
+  }
+}

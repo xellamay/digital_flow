@@ -1,15 +1,25 @@
 .button {
-  @include font-small;
-
-  display: flex;
-  align-items: center;
+  @include regular-dark;
+  
   padding: 16px 32px;
 
   background-color: transparent;
   border: 1px solid;
+  cursor: pointer;
 
   &__icon {
     width: 15px;
     height: 15px;
+  }
+
+  i {
+    margin-left: 36px;
+  }
+
+  &_blue {
+    background: linear-gradient(90deg, #074D88 0%, #61B3C9 100%);
+    color: $secondary;
+    border: none;
+
   }
 }
