@@ -4,18 +4,18 @@
 @import "variabels";
 @import "mixins";
 
-@import "section__container";
-@import "section_main";
+@import "section";
+@import "container";
 @import "header";
 @import "intro";
 
 @import "button";
-@import "contacts";
+@import "socials";
 
-@import "section_footer";
-@import "section__container_footer";
 @import "footer";
 
 @import "menu";
 @import "drawer";
 @import "nav";
+
+@import "about";

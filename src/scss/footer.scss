@@ -27,12 +27,13 @@
     @include regular-white;
     font-weight: 200;
     text-decoration: none;
+    cursor: pointer;
   }
 
   &__aside {
     display: flex;
     justify-content: space-between;
-    margin: 46px 0;
+    padding: 46px 0;
   }
 
   &__logo {

@@ -11,5 +11,12 @@
     margin: 36px 0;
     list-style-type: none;
     color: $grey;
+    cursor: pointer;
+  }
+
+  &__item:hover {
+    color: $secondary;
+    text-decoration: underline;
+    transition: 0.5s;
   }
 }
