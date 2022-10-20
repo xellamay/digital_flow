@@ -1,0 +1,35 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  
+  &__img {
+    width: 50%;
+    background-image: url(../img/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__company {
+    width: 50%;
+    padding: 20px;
+  }
+
+  &__content {
+    vertical-align: middle; 
+    text-align: right; 
+  }
+
+  &__title {
+    @include heading-dark;
+    text-align: right; 
+  }
+
+  &__text {
+    @include regular-dark;
+    text-align: right; 
+    padding: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+}

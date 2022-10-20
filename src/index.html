@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./scss/index.scss">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <title>Digital Flow</title>
 </head>
 <body>
@@ -30,16 +31,76 @@
       </div>
     </div>
   </section>
-
+<!-- TODO перенести about в section_about -->
   <section class="about section_full-screen">
     <div class="about__img"></div>
-    <div class="about__company">
-      <div class="about__info">
-        <h3 class="about__title">О компании</h3>
-        <div class="about__text">Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов.</div>
+    <div class="container">
+      <div class="swiper">
+        
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <table>
+              <tr>
+                <td class="about__content" style="height:300px; vertical-align:middle; width:500px; text-align:center; ">
+                  <h3 class="about__title">О компании</h3>
+                  <div class="about__text">Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете.</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="swiper-slide">
+            <table>
+              <tr>
+                <td class="about__content" style="height:300px; vertical-align:middle; width:500px; text-align:center; ">
+                  <h3 class="about__title">О компании</h3>
+                  <div class="about__text">Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов.</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="swiper-slide">
+            <table>
+              <tr>
+                <td class="about__content" style="height:300px; vertical-align:middle; width:500px; text-align:center; ">
+                  <h3 class="about__title">О компании</h3>
+                  <div class="about__text">Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
       </div>
-      <div class="slider"></div>
     </div>
+  </section>
+
+
+  
+  <section class="section section_portfolio section_full-screen">
+      <h3 class="portfolio__title">Портфолио</h3>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/bg3.png" alt="image">
+            <button class="portfolio__button button">Перейти на сайт
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/bg3.png" alt="image">
+            <button class="portfolio__button button">Перейти на сайт
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/bg3.png" alt="image">
+            <button class="portfolio__button button">Перейти на сайт
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
   </section>
 
   <footer class="section section_black">
@@ -128,5 +189,6 @@
   </div>
 </body>
 <script src="./js/index.js" type="module"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
 <script src="https://kit.fontawesome.com/b6e776bd9b.js" crossorigin="anonymous"></script>
 </html>
