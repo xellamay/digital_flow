@@ -22,4 +22,10 @@
     border: none;
 
   }
+
+  &_white {
+    @include regular-white;
+
+    border-color: $secondary;
+  }
 }

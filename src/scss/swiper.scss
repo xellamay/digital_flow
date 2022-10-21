@@ -15,16 +15,17 @@
     max-width: 900px;
   }
 
-  &--pagination-bullet {
-    width: 15px;
-    height: 15px;
-    background-color: black;
+  &-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: black !important;
+    opacity: 1 !important;
   }
 
   &-pagination-bullet-active {
-    width: 15px;
-    height: 15px;
-    background-color: white;
-    border: 1px solid black;
-}
+    width: 15px !important;
+    height: 15px !important;
+    background-color: white !important;
+    border: 1px solid black !important;
+  }
 }

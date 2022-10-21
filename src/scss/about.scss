@@ -17,17 +17,17 @@
 
   &__content {
     vertical-align: middle; 
-    text-align: right; 
+    text-align: center; 
   }
 
   &__title {
     @include heading-dark;
-    text-align: right; 
+    text-align: center; 
   }
 
   &__text {
     @include regular-dark;
-    text-align: right; 
+    text-align: center; 
     padding: 0;
     margin-bottom: 0;
     vertical-align: middle;
