@@ -1,0 +1,35 @@
+.advantages {
+  display: flex;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  justify-content: center;
+
+  &__title {
+    @include heading-dark;
+    margin: 70px 0;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    flex-basis: 50%;
+    display: flex;
+    padding: 20px 0;
+  }
+
+  &__text {
+    @include regular-dark;
+    margin: 0 0 0 20px;
+  }
+
+  &__icon {
+    width: 50px;
+    height: 50px;
+  }
+}

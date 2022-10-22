@@ -28,4 +28,14 @@
 
     border-color: $secondary;
   }
+
+  &_offer {
+    padding: 14px 22px;
+
+    font-size: 14px;
+
+    & i {
+      margin-left: 16px;
+    }
+  }
 }

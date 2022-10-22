@@ -26,7 +26,19 @@
     background-color: $primary;
   }
 
+  &_advantages {
+    background-image: url(../img/bg5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   &_black {
     background-color: $primary;
+  }
+
+  &_row {
+    display: flex;
+    justify-content: space-between;
   }
 }
