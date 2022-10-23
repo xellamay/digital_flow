@@ -1,5 +1,80 @@
 .special-offer {
   width: 50%;
+  padding: 50px;
   background-color: black;
+  color: $secondary;
 
+  &__container {
+    width: 70%;
+  }
+
+  &__title {
+    @include heading-white;
+    margin: 48px 0 70px 0;
+
+    text-align: end;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 194px;
+    padding: 10px;
+
+    border: 1px $secondary solid;
+  }
+
+  &__item_blue {
+    margin: 0 10px;
+
+    background: linear-gradient(180deg, #61B3C9 0%, #074D88 100%);
+    border: none;
+  }
+
+  &__subtitle {
+    @include regular-white;
+    margin: 62px 0 20px;
+
+    font-size: 20px;
+  }
+
+  &__text {
+    @include regular-white;
+    margin-bottom: 62px;
+    flex-grow: 2;
+
+    font-weight: 400;
+  }
+
+  &__price {
+    @include title-white;
+    margin: 10px 0;
+  }
+
+  &__circle {
+    position: absolute;
+    top: -1px;
+    left: calc(50% - 50px);
+
+    width: 100px;
+    height: 50px;
+
+    background-color: black;
+    border: 1px solid #fff;
+    border-top: transparent;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+
+    z-index: 10;
+
+    &_blue {
+      border-color: black;
+    }
+  }
 }
