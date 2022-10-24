@@ -1,7 +1,14 @@
 .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  height: 68%;
+
   box-sizing: border-box;
   text-align: center;
-  margin-top: 46px;
 
   &__title {
     @include heading-dark;
