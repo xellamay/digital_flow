@@ -29,3 +29,19 @@
     border: 1px solid black !important;
   }
 }
+
+@media (max-width: 768px) {
+  .swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 12px !important;
+    height: 12px !important;
+  }
+
+  .swiper-slide img {
+    max-width: 640px;
+  }
+}

@@ -10,6 +10,35 @@
 </head>
 <body>
 
+  <div class="drawer js-drawer">
+    <div class="menu">
+      <button class="menu__button">
+        <img src="./img/close.svg" alt="close button">
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">Главная</li>
+          <li class="nav__item">Портфолио</li>
+          <li class="nav__item">О компании</li>
+          <li class="nav__item">Что мы предлагаем</li>
+          <li class="nav__item">Специальное предложение</li>
+        </ul>
+      </nav>
+      <button class="button button_blue">Оставить заявку
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+      <div class="menu__socials-networks">
+        <div class="socials">
+          <i class="fa-brands fa-telegram"></i>
+          <i class="fa-brands fa-vk"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <section class="section section_main section_full-screen">
     <div class="container">
       <header class="header">
@@ -39,34 +68,22 @@
         
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <table>
-              <tr>
-                <td class="about__content">
-                  <h3 class="about__title">О компании</h3>
-                  <div class="about__text">Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете.</div>
-                </td>
-              </tr>
-            </table>
+            <div class="about__content">
+              <h3 class="about__title">О компании</h3>
+              <div class="about__text">Мы диджитал агентство занимаемся полным циклом продвижения компаний в интернете.</div>
+            </div>
           </div>
           <div class="swiper-slide">
-            <table>
-              <tr>
-                <td class="about__content">
-                  <h3 class="about__title">О компании</h3>
-                  <div class="about__text">Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов.</div>
-                </td>
-              </tr>
-            </table>
+            <div class="about__content">
+              <h3 class="about__title">О компании</h3>
+              <div class="about__text">Разработка сайтов – Сделаем уникальный дизайн согласно вашему фирменному стилю. Напишем чистый код, без использования конструкторов.</div>
+            </div>
           </div>
           <div class="swiper-slide">
-            <table>
-              <tr>
-                <td class="about__content">
-                  <h3 class="about__title">О компании</h3>
-                  <div class="about__text">Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.</div>
-                </td>
-              </tr>
-            </table>
+            <div class="about__content">
+              <h3 class="about__title">О компании</h3>
+              <div class="about__text">Продвижение – поможем вам быстро добиться желаемого результата, обеспечим постоянный приток новых заявок.</div>
+            </div>
           </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -103,61 +120,63 @@
 
   <section class="section section_offer section_full-screen">
     <div class="container">
-      <h3 class="offer__title">Что мы предлагаем</h3>
-      <div class="offer__wrapper">
-        <div class="offer__grid">
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer1.svg" alt="image">
-            <p class="offer__text">Высокий уровень исполнения </p>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer2.svg" alt="image">
-            <p class="offer__text">Гарантируем качество работы</p>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer3.svg" alt="image">
-            <p class="offer__text">Выполним работу быстро</p>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer4.svg" alt="image">
-            <p class="offer__text">Обеспечим поток заявок</p>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer5.svg" alt="image">
-            <p class="offer__text">Автоматизируем работу </p>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer6.svg" alt="image">
-            <p class="offer__text">Разработаем уникальный дизайн</p>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer7.svg" alt="image">
-            <p class="offer__text">Напишем чистый код</p>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer8.svg" alt="image">
-            <p class="offer__text">Контекстная реклама</p>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer9.svg" alt="image">
-            <p class="offer__text">Третированная реклама</p>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer10.svg" alt="image">
-            <p class="offer__text">SEO продвижение</p>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer11.svg" alt="image">
-            <p class="offer__text">Продвижение в социальных сетях</p>
-          </div>
-          <div class="offer__item">
-            <button class="button button_white button_offer">Подробнее
-              <i class="fa-solid fa-angle-right"></i>
-            </button>
-          </div>
-          <div class="offer__item">
-            <img class="offer__img" src="./img/icon-offer2.svg" alt="image">
-            <p class="offer__text">Высокий уровень исполнения</p>
+      <div class="offer__inner">
+        <h3 class="offer__title">Что мы предлагаем</h3>
+        <div class="offer__wrapper">
+          <div class="offer__grid">
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer1.svg" alt="image">
+              <p class="offer__text">Высокий уровень исполнения </p>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer2.svg" alt="image">
+              <p class="offer__text">Гарантируем качество работы</p>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer3.svg" alt="image">
+              <p class="offer__text">Выполним работу быстро</p>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer4.svg" alt="image">
+              <p class="offer__text">Обеспечим поток заявок</p>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer5.svg" alt="image">
+              <p class="offer__text">Автоматизируем работу </p>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer6.svg" alt="image">
+              <p class="offer__text">Разработаем уникальный дизайн</p>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer7.svg" alt="image">
+              <p class="offer__text">Напишем чистый код</p>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer8.svg" alt="image">
+              <p class="offer__text">Контекстная реклама</p>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer9.svg" alt="image">
+              <p class="offer__text">Третированная реклама</p>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer10.svg" alt="image">
+              <p class="offer__text">SEO продвижение</p>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer11.svg" alt="image">
+              <p class="offer__text">Продвижение в социальных сетях</p>
+            </div>
+            <div class="offer__item">
+              <button class="button button_white button_offer">Подробнее
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+            <div class="offer__item">
+              <img class="offer__img" src="./img/icon-offer2.svg" alt="image">
+              <p class="offer__text">Высокий уровень исполнения</p>
+            </div>
           </div>
         </div>
       </div>
@@ -303,34 +322,6 @@
     </div>
   </footer>
 
-  <div class="drawer js-drawer">
-    <div class="menu">
-      <button class="menu__button">
-        <img src="./img/close.svg" alt="close button">
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">Главная</li>
-          <li class="nav__item">Портфолио</li>
-          <li class="nav__item">О компании</li>
-          <li class="nav__item">Что мы предлагаем</li>
-          <li class="nav__item">Специальное предложение</li>
-        </ul>
-      </nav>
-      <button class="button button_blue">Оставить заявку
-        <i class="fa-solid fa-angle-right"></i>
-      </button>
-      <div class="menu__socials-networks">
-        <div class="socials">
-          <i class="fa-brands fa-telegram"></i>
-          <i class="fa-brands fa-vk"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-solid fa-envelope"></i>
-          <i class="fa-brands fa-whatsapp"></i>
-        </div>
-      </div>
-    </div>
-  </div>
 </body>
 <script src="./js/index.js" type="module"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->

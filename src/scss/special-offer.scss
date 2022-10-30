@@ -1,4 +1,7 @@
 .special-offer {
+  display: flex;
+  align-items: center;
+
   width: 50%;
   padding: 50px;
   background-color: black;
@@ -9,10 +12,11 @@
   }
 
   &__title {
-    @include heading-white;
     margin: 48px 0 70px 0;
 
     text-align: end;
+
+    @include heading-white;
   }
 
   &__list {
@@ -24,6 +28,7 @@
     display: flex;
     position: relative;
     flex-direction: column;
+
     min-height: 300px;
     min-width: 194px;
     padding: 10px;
@@ -39,23 +44,26 @@
   }
 
   &__subtitle {
-    @include regular-white;
     margin: 62px 0 20px;
 
     font-size: 20px;
+
+    @include regular-white;
   }
 
   &__text {
-    @include regular-white;
     margin-bottom: 62px;
     flex-grow: 2;
 
     font-weight: 400;
+    
+    @include regular-white;
   }
 
   &__price {
-    @include title-white;
     margin: 10px 0;
+    
+    @include title-white;
   }
 
   &__circle {

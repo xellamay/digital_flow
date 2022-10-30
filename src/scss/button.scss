@@ -39,3 +39,15 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .button {
+    padding: 12px 24px;
+
+    font-size: 14px;
+  }
+
+  .button i {
+    margin-left: 12px;
+  }
+}

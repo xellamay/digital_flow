@@ -20,10 +20,25 @@
   &__button {
     position: absolute;
     right: 20%;
-    top: 180px;
+    top: 22%;
   }
   
   &__pagination {
     margin: 0 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio {
+
+    &__title {
+      padding: 48px 0;
+      font-size: 46px;
+    }
+
+    &__button {
+      right: 5%;
+      top: 20%;
+    }
   }
 }

@@ -1,36 +1,51 @@
 .offer {
 
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+  }
+
   &__title {
-    @include heading-white;
-    text-align: center;
     margin: 0;
     padding: 60px 0;
+
+    text-align: center;
+
+    @include heading-white;
   }
 
   &__wrapper {
+    margin: 50px 0;
+
     overflow: hidden;
   }
 
   &__grid {
-    display: grid;
     margin: -1px;
+    display: flex;
 
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
   }
 
   &__item {
     display: flex;
+    padding: 15px;
+
     justify-content: center;
     flex-direction: column;
     align-items: center;
 
-    @include regular-white;
-    padding: 15px;
+    width: 192px;
+    height: 192px;
 
     border: 1px #595959 solid;
+
+    @include regular-white;
   }
 
   &__text {

@@ -16,9 +16,12 @@
   }
 
   &__content {
+    display: flex;
     padding: 50px;
+    
+    flex-direction: column;
+    justify-content: center;
 
-    vertical-align: middle; 
     text-align: center; 
   }
 
@@ -33,5 +36,18 @@
     padding: 0;
     margin-bottom: 0;
     vertical-align: middle;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+
+    &__img {
+      width: 150%;
+    }
+
+    &__title {
+      font-size: 38px;
+    }
   }
 }
